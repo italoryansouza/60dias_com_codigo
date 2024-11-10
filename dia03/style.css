@@ -19,6 +19,13 @@ body {
 }
 
 header {
+    position: fixed;
+    width: 100%;
+    background-color: #0C0A0F;
+    top: 0;
+}
+
+header div#cab {
     padding: 40px;
     margin-bottom: 20px;
     display: flex;
@@ -72,7 +79,13 @@ main {
     flex-flow: column wrap;
 }
 
-div#home {
+#home {
+    width: 100%;
+    height: 157px;
+    background-color: #0C0A0F;
+}
+
+div#homeR {
     background-image: url('img/computer-program-coding-screen\ 1.png');
     background-size: cover;
     width: 100%;
@@ -85,14 +98,16 @@ div#home {
     justify-content: center;
 }
 
-div#home h2 {
+div#homeR h2 {
     color: white;
     font-family: 'Lilita one', sans-serif;
     font-weight: 500;
     font-size: 4em;
+
+    padding: 200px 0px; 
 }
 
-div#home img {
+div#homeR img {
     height: 441px;
     width: 400px;
 }
